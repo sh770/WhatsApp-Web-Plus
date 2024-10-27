@@ -24,7 +24,6 @@
 3. Enable developer mode.
 4. Add it to Chrome using the 'Load unpacked extension' option.
 
-
 ## Installing from Chrome Web Store
 
 1. Install the extension from the [WhatsApp-Web-Plus](https://chromewebstore.google.com/detail/whatsapp-web-plus/kgmikiogebpchdgdehpkehgnnnhpdgja).
