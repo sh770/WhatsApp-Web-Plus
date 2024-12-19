@@ -21,13 +21,13 @@ export function clean() {
 }
 
 export function packed() {
-    return gulp.src(FILES, { base: '.' })
+    return gulp.src(FILES, {base: '.', encoding: false})
         .pipe(zip(EXTENSION_FILENAME + '.zip'))
         .pipe(gulp.dest(BUILD_PATH));
 }
 
 export function unpacked() {
-    return gulp.src(FILES, { base: '.' })
+    return gulp.src(FILES, {base: '.'})
         .pipe(gulp.dest(BUILD_PATH + '/' + EXTENSION_FILENAME));
 }
 
